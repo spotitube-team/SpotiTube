@@ -249,6 +249,11 @@ $(document).ready(function() {
 		}
 	}
 
+
+
+
+
+
 	/////////////////////////////////////////
 	// OBJECT DECLARATIONS ABOVE THIS LINE //
 	/////////////////////////////////////////
@@ -375,4 +380,7 @@ $(document).ready(function() {
 function playlistClicked(item) {
 	console.log('FINALLY');
 	console.log(item[0].dataset.tracks);
+	$('.button-collapse').sideNav('hide');
 }
+
+  
