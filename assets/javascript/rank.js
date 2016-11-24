@@ -81,6 +81,7 @@ function rank(youtube_results, tracks) {
 	}
 	console.log(youtube_results);
 	console.log(ranks);
+	console.log('finished');
 	return youtube_results.items;
 }
 
