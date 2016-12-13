@@ -22,7 +22,7 @@ $(document).ready(function() {
 	function spotifyLogin() {
 
 	    var client_id = '73a053a3263e4777a1424219269f36ce',
-	    	redirect_uri = 'https://floating-headland-23837.herokuapp.com/',
+	    	redirect_uri = 'https://project-spotitube.herokuapp.com/',
 	    	scopes = 'user-read-email playlist-read-private playlist-read-collaborative',
 	    	state = generateRandomString(16);
 
@@ -276,7 +276,7 @@ $(document).ready(function() {
 		// went wrong somewhere (or someone is likely trying to hack us).
 		if (access_token && (!state || state != storedState)) {
 
-			window.location = 'https://floating-headland-23837.herokuapp.com/';
+			window.location = 'https://project-spotitube.herokuapp.com/';
 
 		}
 		//	If everything checks out, then we continue
